@@ -2,6 +2,8 @@ FROM hlds/server
 
 # Add maps
 ADD maps/* /opt/hlds/cstrike/maps/
+ADD gfx/* /opt/hlds/cstrike/gfx/
+ADD wad/* /opt/hlds/cstrike/
 ADD files/mapcycle.txt /opt/hlds/cstrike/mapcycle.txt
 ADD files/maps.ini /opt/hlds/cstrike/addons/amxmodx/configs/maps.ini
 ADD hlds_run.sh /bin/hlds_run.sh
